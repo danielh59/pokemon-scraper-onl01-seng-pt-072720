@@ -18,6 +18,5 @@ class Pokemon
   pokemon = the_db.execute("SELECT * FROM pokemon WHERE id = ?", id)
   name = pokemon[1]
   type = pokemon[2]
-  hp = pokemon[3]
-
+  end
 end
