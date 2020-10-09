@@ -18,5 +18,6 @@ class Pokemon
   pokemon = the_db.execute("SELECT * FROM pokemon WHERE id = ?", id)
   name = pokemon[1]
   type = pokemon[2]
+  our_poke = Pokemon.new(id: id, name: name, type: type, hp: hp, db: database_connection)
   end
 end
