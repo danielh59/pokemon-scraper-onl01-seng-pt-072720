@@ -20,4 +20,5 @@ class Pokemon
   type = pokemon[2]
   our_poke = Pokemon.new(id: id, name: name, type: type, db: the_db)
   end
+  
 end
